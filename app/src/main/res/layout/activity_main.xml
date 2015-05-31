@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:text="@string/nanodegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="24sp"
+        android:padding="@dimen/button_margin" />
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        android:text="@string/spotify_streamer"
+        android:onClick="makeToast"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/scores_app"
+        android:text="@string/scores_app"
+        android:onClick="makeToast"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/lib_app"
+        android:text="@string/lib_app"
+        android:onClick="makeToast"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        android:text="@string/xyz_reader"
+        android:onClick="makeToast"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/build_big"
+        android:text="@string/build_big"
+        android:onClick="makeToast"
+        style="@style/AppButtonStyle" />
+
+    <Button
+        android:id="@+id/capstone"
+        android:text="@string/capstone"
+        android:onClick="makeToast"
+        android:background="#FF4081"
+        android:textColor="#FFFFFF"
+        style="@style/AppButtonStyle" />
+
+</LinearLayout>
